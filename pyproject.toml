@@ -1,0 +1,19 @@
+[project]
+name = "msmarco-redis-poc"
+version = "0.1.0"
+requires-python = ">=3.10"
+dependencies = [
+    "redisvl",
+    "sentence-transformers>=3.0.0",
+    "transformers>=4.40.0",
+    "pandas",
+    "numpy",
+    "datasets",
+    "openai",
+    "jupyter",
+]
+
+[tool.uv]
+dev-dependencies = [
+    "ipykernel",
+]
