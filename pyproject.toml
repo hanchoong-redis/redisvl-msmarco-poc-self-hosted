@@ -3,7 +3,7 @@ name = "msmarco-redis-poc"
 version = "0.1.0"
 requires-python = ">=3.10"
 dependencies = [
-    "redisvl",
+    "redisvl>=0.6.0",
     "sentence-transformers>=3.0.0",
     "transformers>=4.40.0",
     "pandas",
@@ -11,6 +11,8 @@ dependencies = [
     "datasets",
     "openai",
     "jupyter",
+    "tqdm",
+    "redis"
 ]
 
 [tool.uv]
